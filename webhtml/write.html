@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <link rel="stylesheet" type="text/css" href="aui/css/aui.css" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <script src="//libs.cdnjs.net/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<header class="aui-bar aui-bar-nav aui-bar-warning">
+    <a class="aui-btn aui-btn-warning aui-pull-left">
+        <span id="goback" class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div class="aui-title">发布作品</div>
+    <a class="aui-pull-right">
+        <span class="aui-iconfont aui-icon-check"></span>
+    </a>
+</header>
+<div id="main">
+    <div class="aui-content aui-padded-15 aritcle-edit">
+        <textarea id="edit-text" placeholder="说点什么吧"></textarea>
+        <ul class="aui-list-view aui-grid-view">
+            <li class="aui-list-view-cell aui-img aui-col-xs-3">
+                <img class="aui-img-object" src="aui/image/demo2.png">
+            </li>
+            <li class="aui-list-view-cell aui-img aui-col-xs-3">
+                <img class="aui-img-object" src="aui/image/demo5.png">
+            </li>
+            <li class="aui-list-view-cell aui-img aui-col-xs-3">
+                <img class="aui-img-object" src="aui/image/demo6.png">
+            </li>
+            <li class="aui-list-view-cell aui-img aui-col-xs-3">
+                <img class="aui-img-object" src="aui/image/demo1.png">
+            </li>
+            <li class="aui-list-view-cell aui-img aui-col-xs-3">
+                <img class="aui-img-object" src="aui/image/demo4.png">
+            </li>
+            <li class="aui-list-view-cell aui-img aui-col-xs-3">
+                <img class="aui-img-object" src="images/plus.png">
+            </li>
+        </ul>
+        <div class="aui-text-left aui-border-b article-tag">
+            <i class="aui-iconfont aui-icon-tag"></i>
+            <a class="aui-arrow-right">标签</a>
+            <span class="aui-badge aui-badge-warning">优化css</span>
+            <span class="aui-pull-right select-tag">选择标签</span>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    $('.select-tag').click(function(){
+        $tag = $('<span class="aui-badge aui-badge-warning">优化css</span>');
+        $(this).before( $tag);
+        var length = $('.article-tag').children('.aui-badge').length;
+       if(length>=2) $('.select-tag').remove();
+    })
+
+</script>
+</body>
+</html>

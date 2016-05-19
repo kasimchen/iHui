@@ -1,0 +1,56 @@
+body{background:#ffffff}
+#main{padding-bottom:30px}
+.aui-content > div{line-height:50px;text-align:center}
+.artile-item{margin-bottom:15px}
+.artile-item .userinfo{margin-bottom:0px}
+.userinfo .avatar{width:48px;height:48px}
+.userinfo .avatar img{width:48px;height:48px}
+.userinfo .name{margin-left:60px;font-size:0.8rem}
+.article-content{margin:4px}
+.pic-count{height:20px;position:absolute}
+.airticle-pic img{width:100%}
+.airticle-pic span{position:absolute;right:14px;height:15px;background-color: rgba( 0, 0, 0, .5 );line-height:17px;width:15px;font-size:0.5rem;color:#ffffff;}
+.aritcle-opration{height:42px}
+.aritcle-opration span{width:100px;height:50px;padding:2px 16px;border:1px solid #DEDEDE;border-radius:6px;margin-right:10px;color:#A5A5A5}
+.aritcle-opration span i:nth-child(2){font-style:normal;font-size:0.8rem;margin-left:5px}
+.last-comment{height:30px;margin-top:12px}
+.last-comment>div{height:25px;width:auto;line-height:40px;font-size:0.7rem}
+.last-comment .comment{color:#8E8E8E}
+.comment-h{font-size:0.4rem;padding:10px 1px;color:#868686}
+.comment-item .avatar img{height:32px;width:32px;border-radius:50%}
+.comment-item .avatar{width:32px;height:32px}
+.comment-c>div{line-height:20px}
+.comment-c .name{color:lightgrey;font-size:0.8rem;height:15px;margin-left:44px;line-height:10px}
+.comment-c .comment-text{font-size:0.9rem;margin-left:44px;padding-bottom:4px}
+.more{height:20px;line-height:19px !important;font-size:0.8rem;color:#868686}
+#edit-text{
+    line-height: 20px;
+    height: 90px;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+.picadd {
+    height:50px;width:50px;
+}
+.article-tag{line-height: 36px;}
+.article-tag i,.article-tag a{color:red;}
+.article-tag a{font-size: 0.7rem;margin-left: 5px;  }
+.article-tag .select-tag{    font-size: 0.7rem;
+    margin-right: 28px;
+    color: #c8c7cc;
+}
+.tag-input{display:-webkit-box;}
+.tag-input .input-item{-webkit-box-flex:1;height: 44px;}
+.tag-input input{border:none}
+.tag-input .input-btn{}
+.tags{display:-webkit-box;}
+.tags a{
+    display: -webkit-inline-box;
+    height: 22px;
+    line-height: 12px;
+    padding: 4px;
+    margin-right: 4px;
+    font-size: 0.8rem;
+    color: #8C8C8C;
+    border:1px solid lightgrey;
+}
